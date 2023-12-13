@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #272525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4%;
+    box-shadow: 0 1px 1px #c3c3c3;
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+header .logo:hover {
+    transform: scale(1.1);
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(135, 126, 126, 0.627);
+    color: #ffffff;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 150px;
+    background: #272525;
+    display: none;
+}
+
+nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}
+
+
+
+
+
+h1 {
+    font-size: 50px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+p {
+    font-size: 25px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 220;
+}
+
+pre {
+		
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+  }
+
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+
+
+
+body {
+    padding: 0px;
+    background-color: rgb(243, 236, 236);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: rgb(27, 26, 26);
+    color: rgb(255, 255, 255);
+    
+    
+  }
+
+  .darkmode {
+    width: 50px;
+    height: 40px;
+    background: #272525;
+    position: absolute;
+    border-radius: 2px;
+    right: 0px;
+    top: 60px;
+    right: 5px;
+    
+  }
+
+  .darkmode:hover {
+    box-shadow: 0 12px 16px 0 rgba(182, 181, 181, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .darkmode:hover {opacity: 1}
+
+
+
+
+
+
+
